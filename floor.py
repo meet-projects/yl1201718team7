@@ -56,7 +56,9 @@ for i in range(number_of_floors):
 		floor_list.append(floor)
 	current_floor_height += 100
 print(floor.y)
-for i in range(100):
-	barrel1 = Barrel(False)
-	barrel1.crawl()
+
+barrel1 = Barrel(False)
+barrel1.crawl()
+
+
 mainloop()
