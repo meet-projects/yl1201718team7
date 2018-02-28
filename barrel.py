@@ -34,6 +34,7 @@ class Barrel(Turtle):
 		self.goto(right_edge - 50, -55 + newSize)
 		self.goto(right_edge - 50, -105 + newSize)
 		self.goto(left_edge + 50, -155 + newSize)
+		
 		self.goto(left_edge + 50, -205 + newSize)
 		self.goto(right_edge - 50, -255 + newSize)
 		self.goto(right_edge - 50, -305 + newSize)
